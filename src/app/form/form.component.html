@@ -1,0 +1,50 @@
+<mat-card class="form-box">
+  <mat-form-field appearance="outline">
+    <mat-label>First Name*</mat-label>
+    <input matInput [(ngModel)]="newfirst" />
+  </mat-form-field>
+</mat-card>
+<mat-card class="form-box">
+  <mat-form-field appearance="outline">
+    <mat-label>Last Name*</mat-label>
+    <input matInput [(ngModel)]="newlast" />
+  </mat-form-field>
+</mat-card>
+<mat-card class="form-box">
+  <mat-form-field appearance="outline">
+    <mat-label>Address*</mat-label>
+    <input matInput [(ngModel)]="newaddress" />
+  </mat-form-field>
+</mat-card>
+<mat-card class="form-box">
+  <mat-form-field appearance="outline">
+    <mat-label>Email*</mat-label>
+    <input matInput [(ngModel)]="newemail" />
+  </mat-form-field>
+</mat-card>
+<mat-card class="form-box">
+  <mat-form-field appearance="outline">
+    <mat-label>Password*</mat-label>
+    <input matInput [(ngModel)]="newpass" />
+  </mat-form-field>
+</mat-card>
+<mat-card class="form-box">
+  Gender:<br />
+  <mat-radio-group>
+    <mat-radio-button value="1">Male</mat-radio-button>
+    <mat-radio-button value="2">Female</mat-radio-button>
+    <mat-radio-button value="3">Others</mat-radio-button>
+  </mat-radio-group>
+</mat-card>
+
+<mat-card class="form-box">
+  <mat-form-field appearance="outline">
+    <mat-label>Date Of Birth</mat-label>
+    <input matInput [(ngModel)]="newdate" type="date" />
+  </mat-form-field>
+</mat-card>
+
+<div class="adder">
+  <button class="add" mat-raised-button color="warn">Register</button>
+  <br />
+</div>
